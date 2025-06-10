@@ -10,7 +10,9 @@ Create a unified, intuitive web platform that consolidates a diverse array of co
 
 ## 📺 **View the Project**
 
-- **[Demo Video](https://drive.google.com/file/d/1aLrQCO2dW47nmAMfGSQ4nHGjge5u6gHi/view?usp=sharing)**
+
+https://github.com/user-attachments/assets/bdfacb63-27ff-41de-bdca-d1b24b77d75d
+
 - **[Powerpoint Presentation](https://drive.google.com/file/d/15RxO-FhbjL-GLeqxmumtRasaKPSMEOKO/view?usp=sharing)**
 
 
@@ -166,7 +168,7 @@ We welcome contributions! To contribute to the project:
 ### 💬 **Contact**
 
 For inquiries or support, reach us at:  
-**Email**: yashchavan4628@gmail.com
+**Email**: chikkakrisha@gmail.com
 
 ---
 
