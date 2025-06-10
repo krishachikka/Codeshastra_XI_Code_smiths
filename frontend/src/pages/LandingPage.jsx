@@ -49,7 +49,7 @@ export default function LandingPage() {
           <br className="hidden md:block" /> One Unified Platform
         </h2>
         <p className="text-purple-100/80 text-lg max-w-2xl mx-auto mb-10">
-          Boost your productivity with ToolSuite — a centralized, stylish, and futuristic utility suite.
+          Boost your productivity with ToolSuite — a centralized, stylish, and futuristic utility.
         </p>
 
         <div className="max-w-lg mx-auto mb-8">
