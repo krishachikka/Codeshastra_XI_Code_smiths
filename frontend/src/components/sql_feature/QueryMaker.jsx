@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTheme } from '../Theme/themecontext'; // Adjust path as needed
+import { useTheme } from '../Theme/ThemeContext'; // Adjust path as needed
 
 const QueryMaker = () => {
   const { isDarkMode } = useTheme();

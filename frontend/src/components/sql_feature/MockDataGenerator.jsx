@@ -5,7 +5,7 @@ import { faker } from '@faker-js/faker';
 import Papa from 'papaparse';
 import yaml from 'js-yaml';
 import { js2xml } from 'xml-js';
-import { useTheme } from '../Theme/themecontext'; // Adjust if needed
+import { useTheme } from '../Theme/ThemeContext'; // Adjust if needed
 
 export default function MockDataGenerator() {
     const { isDarkMode, toggleTheme } = useTheme();

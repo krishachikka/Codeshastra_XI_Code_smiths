@@ -56,7 +56,7 @@ import FeaturePage from './pages/FeaturePage';
 
 // Context for Payment Status
 import { PaymentStatusProvider } from './components/login/PaymentStatusContext';
-import { ThemeProvider } from './components/Theme/themecontext';
+import { ThemeProvider } from './components/Theme/ThemeContext';
 
 import './App.css';
 import ColorPalette from './components/ColorPalette';

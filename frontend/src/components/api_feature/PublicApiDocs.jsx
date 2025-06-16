@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PublicApiSidebar from './PublicApiSidebar';
 import apiData from '../../data/apiData';
 import PublicApiCodePanel from './PublicApiCodePanel';
-import { useTheme } from '../Theme/themecontext';  // Import the custom hook
+import { useTheme } from '../Theme/ThemeContext';  // Import the custom hook
 
 const PublicApiDocs = () => {
     const { isDarkMode, setIsDarkMode } = useTheme();  // Use the custom hook to get theme

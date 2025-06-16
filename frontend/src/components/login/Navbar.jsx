@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Sun, Moon } from 'lucide-react';
-import { useTheme } from '../Theme/themecontext';
+import { useTheme } from '../Theme/ThemeContext';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
