@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PublicApiSidebar from './PublicApiSidebar';
-import apiData from '../../data/apidata';
+import apiData from '../../data/apiData';
 import PublicApiCodePanel from './PublicApiCodePanel';
 import { useTheme } from '../Theme/themecontext';  // Import the custom hook
 

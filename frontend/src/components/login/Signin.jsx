@@ -28,7 +28,7 @@ function Signin() {
         }
 
         try {
-            const response = await axios.post('http://localhost:3000/api/auth/signin', formData);
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/auth/signin`, formData);
 
             if (response.status === 200) {
                 const { token, username } = response.data; // Destructure the response

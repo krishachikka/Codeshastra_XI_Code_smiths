@@ -5,7 +5,7 @@ const QueryMaker = () => {
   const { isDarkMode } = useTheme();
 
   const handleRedirect = () => {
-    window.location.href = 'http://localhost:5000/';
+    window.location.href = `${import.meta.env.VITE_PYTHON_URL}`;
   };
 
   return (

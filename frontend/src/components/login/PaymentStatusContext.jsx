@@ -17,7 +17,7 @@ export const PaymentStatusProvider = ({ children }) => {
         }
 
         // Fetch payment status from the backend
-        fetch('http://localhost:3000/api/payment/check-payment-status', {
+        fetch(`${import.meta.env.VITE_BACKEND_URL}/api/payment/check-payment-status`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

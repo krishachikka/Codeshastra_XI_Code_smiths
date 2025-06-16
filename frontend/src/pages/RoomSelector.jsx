@@ -9,7 +9,7 @@ const RoomSelector = () => {
 
   const createRoom = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/api/room/create', {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/room/create`, {
         text: 'The quick brown fox jumps over the lazy dog',
       });
       navigate(`/test/${response.data.code}`); // Use navigate instead of history.push
@@ -20,7 +20,7 @@ const RoomSelector = () => {
 
   const joinRoom = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/room/join', {
+      const response = await axios.post(`${import.meta.env.VITE_PYTHON_URL}/api/room/join`, {
         code: roomCode,
         username,
       });

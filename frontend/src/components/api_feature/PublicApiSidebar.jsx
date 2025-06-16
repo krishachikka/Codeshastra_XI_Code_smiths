@@ -1,5 +1,5 @@
 import React from 'react';
-import apiData from '../../data/apidata';
+import apiData from '../../data/apiData';
 
 const apiRoutes = Object.keys(apiData);
 

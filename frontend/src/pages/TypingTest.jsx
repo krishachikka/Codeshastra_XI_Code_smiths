@@ -8,7 +8,7 @@ const TypingTest = ({ match }) => {
   const [time, setTime] = useState(0);
   const [username, setUsername] = useState('Player');
   const [results, setResults] = useState([]);
-  const socket = socketIOClient('http://localhost:5000');
+  const socket = socketIOClient(`${import.meta.env.VITE_PYTHON_URL}`);
 
   useEffect(() => {
     const { code } = match.params;

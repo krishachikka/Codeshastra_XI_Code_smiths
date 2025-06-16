@@ -57,7 +57,7 @@ const PaymentPage = () => {
                     console.log('Payment successful for user:', username);
 
                     // Now call the backend API to store the payment data
-                    fetch('http://localhost:3000/api/payment/save-payment', {
+                    fetch(`${import.meta.env.VITE_BACKEND_URL}/api/payment/save-payment`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

@@ -15,7 +15,7 @@ const NetworkTool = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_BASE = 'http://localhost:5000/api/network';
+  const API_BASE = `${import.meta.env.VITE_PYTHON_URL}/api/network`;
 
   const resetStates = () => {
     setIpResult(null);
