@@ -23,7 +23,7 @@ const TypingTest = ({ match }) => {
     });
 
     // Fetch the test text from the server
-    axios.get(`http://localhost:5000/api/room/${code}`)
+    axios.get(`${import.meta.env.VITE_PYTHON_URL}/api/room/${code}`)
       .then((response) => {
         setText(response.data.text);
       });

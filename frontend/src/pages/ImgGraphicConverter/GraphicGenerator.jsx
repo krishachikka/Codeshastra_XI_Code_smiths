@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import QRGenerator from '../../components/ImgGraphicConverter/QrGenerator';
 import BarcodeGenerator from '../../components/ImgGraphicConverter/BarcodeGenerator';
 import ColorTool from '../../components/ImgGraphicConverter/ColorTool';
-import { useTheme } from '../../components/Theme/themecontext'; // Import the useTheme hook
+import { useTheme } from '../../components/Theme/ThemeContext'; // Import the useTheme hook
 
 const tabs = [
   { id: 'qr', label: 'QR Code' },

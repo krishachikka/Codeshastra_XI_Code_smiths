@@ -10,7 +10,7 @@ const CommunityHomePage = () => {
 
     const fetchPosts = async () => {
         try {
-            const res = await axios.get('http://localhost:3000/api/community/posts');
+            const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/community/posts`);
             setPosts(res.data);
         } catch (error) {
             console.error('Error fetching posts:', error);
@@ -23,7 +23,7 @@ const CommunityHomePage = () => {
 
     const handleStar = async (postId) => {
         try {
-            await axios.patch(`http://localhost:3000/api/community/posts/${postId}/like`, { username });
+            await axios.patch(`${import.meta.env.VITE_BACKEND_URL}/api/community/posts/${postId}/like`, { username });
             fetchPosts();
         } catch (err) {
             console.error('Error starring post:', err);
@@ -34,7 +34,7 @@ const CommunityHomePage = () => {
         try {
             const text = commentText[postId];
             if (!text) return;
-            await axios.post(`http://localhost:3000/api/community/posts/${postId}/comment`, {
+            await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/community/posts/${postId}/comment`, {
                 username,
                 text,
             });

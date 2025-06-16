@@ -14,7 +14,7 @@ const TerminalComponent = () => {
         term.open(terminalRef.current);
         termRef.current = term;
 
-        const socket = new WebSocket('ws://localhost:5000/terminal');
+        const socket = new WebSocket(`wss://${import.meta.env.VITE_PYTHON_URL}/terminal`);
         socketRef.current = socket;
 
         term.onData(data => socket.send(data));

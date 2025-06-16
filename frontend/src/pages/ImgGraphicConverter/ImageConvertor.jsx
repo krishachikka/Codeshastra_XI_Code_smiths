@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { useTheme } from '../../components/Theme/themecontext';
+import { useTheme } from '../../components/Theme/ThemeContext';
 
 const ImageConverter = () => {
   const { isDarkMode, toggleTheme } = useTheme(); // Use the theme context
