@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FormatConverter from '../../components/converter_feature/FormatConverter';
-import FormatterAppPage from './formatterappPage';
+import FormatterAppPage from './FormatterAppPage';
 import CodeFormatterPage from './CodeFormatterPage';
 import { useTheme } from '../../components/Theme/ThemeContext'; // Import the useTheme hook
 
